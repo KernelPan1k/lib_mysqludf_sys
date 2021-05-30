@@ -1,6 +1,10 @@
 mysql sys_exec UDF
 ==================
 
+Make hexa
+
+         xxd -p lib_mysqludf_sys.so | tr -d '\n' > lib_mysqludf_sys.so.hex
+
 Manual
 ======
 
